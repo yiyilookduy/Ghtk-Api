@@ -1,9 +1,0 @@
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\bin\Debug\YiyilookGhtk.dll
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\bin\Debug\YiyilookGhtk.pdb
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\obj\Debug\YiyilookGhtk.csprojAssemblyReference.cache
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\obj\Debug\YiyilookGhtk.csproj.CoreCompileInputs.cache
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\obj\Debug\YiyilookGhtk.dll
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\obj\Debug\YiyilookGhtk.pdb
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\bin\Debug\Newtonsoft.Json.dll
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\bin\Debug\Newtonsoft.Json.xml
-D:\ProjectCSharp\ManagementShop\YiyilookGhtk\obj\Debug\YiyilookGhtk.csproj.CopyComplete
