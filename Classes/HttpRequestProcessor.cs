@@ -8,14 +8,17 @@ using System.Threading.Tasks;
 
 namespace YiyilookGhtk.Classes
 {
-    public class HttpRequestProcessor
+    public class HttpRequestProcessor : IHttpRequestProcessor
     {
 
-        private HttpClient Client { get; }
+        public HttpClient Client { get; }
 
-        public HttpRequestProcessor(HttpClient client)
+        public HttpClientHandler HttpHandler { get; }
+
+        public HttpRequestProcessor(HttpClient client, HttpClientHandler httpHandler)
         {
             Client = client;
+            HttpHandler = httpHandler;
         }
 
         public async Task<HttpResponseMessage> SendAsync(HttpRequestMessage requestMessage)

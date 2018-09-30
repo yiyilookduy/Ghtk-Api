@@ -45,9 +45,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="API\GhtkApi.cs" />
+    <Compile Include="API\GhtkApiConstants.cs" />
     <Compile Include="API\IGhtkApi.cs" />
     <Compile Include="Classes\DTOS\FeeRequestObject.cs" />
     <Compile Include="Classes\HttpRequestProcessor.cs" />
+    <Compile Include="Classes\IHttpRequestProcessor.cs" />
     <Compile Include="Classes\IResult.cs" />
     <Compile Include="Classes\ResponseWrappers\FeeInfo.cs" />
     <Compile Include="Classes\ResponseWrappers\GhtkOrder.cs" />
@@ -56,6 +58,7 @@
     <Compile Include="Converters\Json\FeeInfoDataConverter.cs" />
     <Compile Include="Converters\Json\GhtkOrderDataConverter.cs" />
     <Compile Include="Helper\HttpHelper.cs" />
+    <Compile Include="Helper\UriHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

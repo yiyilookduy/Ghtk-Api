@@ -14,5 +14,7 @@ namespace YiyilookGhtk.API
         Task<IResult<GhtkOrder>> GetStatusOrderAsync(string idOrder);
 
         Task<IResult<FeeInfo>> GetFeeInfo(FeeRequestObject feeObject);
+
+        Task<IResult<string>> GetFeeOfOrder(FeeRequestObject feeObject);
     }
 }
